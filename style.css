@@ -1697,7 +1697,7 @@ html, body {
   /*ABOUT US*/
   .seksioni2{
     display: grid;
-    padding-left: 30px;
+    padding-left: 20px;
     margin-top: 50px;
     margin-bottom: 100px;
   }
@@ -1972,7 +1972,7 @@ html, body {
   }
 
   .tema-persons img{
-      width: 450px;
+      width: 400px;
       margin-top: 10px;
   }
 
