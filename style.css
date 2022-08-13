@@ -251,9 +251,9 @@ html, body {
     /*ABOUT US*/
   .seksioni2{
     display: grid;
-    grid-template-columns: 2fr 3fr;
-    padding-left: 200px;
+    grid-template-columns: 1fr 2fr;
     margin-top: 100px;
+    padding-left: 200px;
     margin-bottom: 100px;
   }
 
@@ -305,7 +305,7 @@ html, body {
 
   .interior-text{
       max-width: 550px;
-      margin-left: 30px;
+      margin-left: 40px;
   }
 
   .interior-text h4{
@@ -608,9 +608,7 @@ html, body {
         margin-top: 5px;
     }
 
-    span{
-        display: absolute;
-        margin-top: 5px;
+    .slider span{
         color: #eee;
         font-size: 14px;
     }
@@ -900,9 +898,9 @@ html, body {
         color: #ffff;
         background-color: #eb3656;
         padding: 0 25px;
-        line-height: 48px;
+        line-height: 30px;
         box-shadow: 0 5px 16px rgba(235,54,86,.65);
-        font-size: 13px;
+        font-size: 8px;
     }
     
     .phone-number button:hover{
@@ -911,7 +909,7 @@ html, body {
         box-shadow: 0 5px 16px 0 rgb(235 54 86 / 65%);
     }
     .phone-number button i{
-        padding-top: 15px;
+        padding-top: 9px;
       }
 
     /*Home*/
@@ -939,15 +937,14 @@ html, body {
   .second-block {
       position: relative;
       font-weight:700;
-      padding: 200px 150px;
-      border: 0ch;
+      padding: 150px 100px;
   }
   
   .seksioni1 h1{
       font-family: 'Quattrocento' , serif;
       font-size: 60px;
       color:#121619;
-      margin: 0px 0px 30px ;
+      margin: 0px 0px 20px ;
   }
   
   .seksioni1 .second-block h1 span{
@@ -982,15 +979,15 @@ html, body {
       height: 2px;
       width: 60px;
       background-color: #eb3656;
-      top:  440px;
-      left: 150px;
+      top:  445px;
+      left: 100px;
   }
     /*ABOUT US*/
   .seksioni2{
     display: grid;
     grid-template-columns: 2fr 3fr;
-    padding-left: 50px;
-    margin-top: 100px;
+    padding-left: 30px;
+    margin-top: 20px;
     margin-bottom: 100px;
   }
 
@@ -999,12 +996,12 @@ html, body {
   }
 
   .photo-first{
-      width: 270px;
+      width: 220px;
       position: relative;
   }
 
   .photo-second {
-      width: 460px;
+      width: 430px;
       margin-top: -150px;
       position: relative;
       padding-left: 210px;
@@ -1013,10 +1010,9 @@ html, body {
   .interior-photos::before{
       content:url('photo/dots.jpg');
       position: absolute;
-      width: 1px;
-      padding-top: 10px;
+      padding-top: 5px;
       padding-bottom: 150px;
-      padding-left: 50px;
+      padding-left: 30px;
   }
 
   .seksioni2 .interior-photos button{
@@ -1024,12 +1020,12 @@ html, body {
       border: 8px solid #fff;
       color: #ffff;
       background-color: #eb3656;
-      padding: 0 30px;
+      padding: 0 20px;
       line-height: 58px;
       font-weight: 700;
-      top: 1260px;
+      top: 1000px;
       left: 140px;
-      font-size: 15px;
+      font-size: 13px;
   }
 
   .seksioni2 .interior-photos button span{
@@ -1044,7 +1040,7 @@ html, body {
   }
 
   .interior-text{
-      max-width: 550px;
+      max-width: 600px;
       margin-left: 20px;
       margin-top: 60px;
   }
@@ -1064,7 +1060,7 @@ html, body {
   }
 
   .interior-text p{
-      font-size: 17px;
+      font-size: 13px;
       color: #646464;
   }
 
@@ -1312,11 +1308,11 @@ html, body {
       padding-bottom: 50px;
   }
   .seksioni6 .main-photo{
-      width: 800px;
+      width: 700px;
       height: 600px;
       padding-top: 100px;
       position: absolute;
-      padding-left: 200px;
+      padding-left: 70px;
   }
 
   .seksioni6 .shape1{
@@ -1333,10 +1329,7 @@ html, body {
   }
 
   .seksioni6 .shape3{
-    width: 610px;
-    position: absolute;
-    padding-left: 280px;
-    padding-top: 100px;
+   display: none;
   }
 
   .slider{
@@ -1346,7 +1339,7 @@ html, body {
       padding: 15px 0px;
       width: 400px;
       text-align: center;
-      margin: 200px 300px;
+      margin: 200px 190px;
   }
 
   .slider h5{
@@ -1364,7 +1357,7 @@ html, body {
       margin-top: 5px;
   }
 
-  span{
+    .slider span{
       display: absolute;
       margin-top: 5px;
       color: #eee;
@@ -1644,7 +1637,7 @@ html, body {
   position: absolute;
   align-items: flex-end;
   right: 0;
-  height: 60%;
+  height: 50%;
   width: 55%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1667,6 +1660,8 @@ html, body {
 .seksioni1 .second-block h1 span{
   color: #eb3656;
   font-size: 40px;
+  display: inline-block;
+  margin: 0px 0px;
 }
 
 .seksioni1 p{
@@ -1696,7 +1691,7 @@ html, body {
   height: 2px;
   width: 60px;
   background-color: #eb3656;
-  top:  320px;
+  top:  363px;
   left: 20px;
 }
   /*ABOUT US*/
@@ -1708,12 +1703,12 @@ html, body {
   }
   
   .photo-first{
-      width: 390px;
+      width: 370px;
       position: relative;
   }
   
   .photo-second {
-      width: 390px;
+      width: 370px;
       margin-top: 50px;
       position: relative;
   }
@@ -2019,9 +2014,10 @@ html, body {
   }
   .seksioni6 .main-photo{
       height: 600px;
-      width: 470px;
+      width: 400px;
       padding-top: 150px;
-      position: absolute;   
+      position: absolute; 
+      padding-left: 15px;  
   }
   
   .seksioni6 .shape1{
@@ -2037,20 +2033,17 @@ html, body {
   }
   
   .seksioni6 .shape3{
-      width: 400px;
-      position: absolute;
-      padding-left: 10px;
-      padding-top: 100px;
+      display: none;
   }
   
   .slider{
       position: absolute;
       border: 1px solid #eb3656;
       background-color: #eb3656;
-      padding: 30px 15px;
-      width: 400px;
+      padding: 30px 25px;
+      width: 350px;
       text-align: center;
-      margin: 200px 50px;
+      margin: 200px 35px;
   }
   
   .slider h5{
@@ -2064,13 +2057,10 @@ html, body {
   .slider p{
       font-size: 18px;
       color: #eee;
-      line-height: 30px;
       margin-top: 5px;
   }
   
-  span{
-      display: absolute;
-      margin-top: 5px;
+  .slider span{
       color: #eee;
       font-size: 14px;
   }
